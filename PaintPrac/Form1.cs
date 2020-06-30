@@ -48,7 +48,11 @@ namespace PaintPrac
             PictureBox p = (PictureBox)sender;
             pen.Color = p.BackColor;
         }
-
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            PictureBox p = (PictureBox)sender;
+            pen.Color = p.BackColor;
+        }
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             moving = true;
